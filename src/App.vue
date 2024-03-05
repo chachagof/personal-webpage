@@ -1,6 +1,7 @@
 <script setup>
 import Nav from './components/Nav.vue'
 import Introduction from './components/Introduction.vue'
+import Skill from "./components/Skill.vue"
 
 </script>
 
@@ -11,6 +12,9 @@ import Introduction from './components/Introduction.vue'
   <main>
     <Introduction />
   </main>
+  <div class="skills">
+    <Skill />
+  </div>
 </template>
 
 <style>
@@ -35,6 +39,10 @@ main {
   gap: 40px;
 }
 
+.skills {
+  padding: 110px 85px 0;
+}
+
 @media screen and (max-width: 992px) {
   main {
     flex-direction: column;
@@ -50,6 +58,9 @@ main {
   main {
     padding: 42px;
   }
-}
 
+  .skills {
+    padding: 85px 42px 0;
+  }
+}
 </style>
