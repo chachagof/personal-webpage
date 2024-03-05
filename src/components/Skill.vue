@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <h5>My Skills</h5>
   <h3>專長</h3>
@@ -101,6 +97,9 @@ skill-items .item ul li {
 }
 
 @media screen and (max-width: 1200px) {
+  h3{
+      font-size: 32px;
+    }
   .skill-items {
     gap: 10px;
     justify-content: space-between;

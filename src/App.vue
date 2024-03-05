@@ -2,6 +2,7 @@
 import Nav from './components/Nav.vue'
 import Introduction from './components/Introduction.vue'
 import Skill from "./components/Skill.vue"
+import Portfolio from './components/Portfolio.vue'
 
 </script>
 
@@ -14,6 +15,9 @@ import Skill from "./components/Skill.vue"
   </main>
   <div class="skills">
     <Skill />
+  </div>
+  <div class="portfolio">
+    <Portfolio />
   </div>
 </template>
 
@@ -43,6 +47,10 @@ main {
   padding: 110px 85px 0;
 }
 
+.portfolio {
+  padding: 110px 85px;
+}
+
 @media screen and (max-width: 992px) {
   main {
     flex-direction: column;
@@ -61,6 +69,10 @@ main {
 
   .skills {
     padding: 85px 42px 0;
+  }
+
+  .portfolio {
+    padding: 60px 42px;
   }
 }
 </style>
