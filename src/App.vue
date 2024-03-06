@@ -3,6 +3,7 @@ import Nav from './components/Nav.vue'
 import Introduction from './components/Introduction.vue'
 import Skill from "./components/Skill.vue"
 import Portfolio from './components/Portfolio.vue'
+import Experience from './components/Experience.vue'
 
 </script>
 
@@ -13,11 +14,14 @@ import Portfolio from './components/Portfolio.vue'
   <main>
     <Introduction />
   </main>
-  <div class="skills">
+  <div class="skills" id="skills">
     <Skill />
   </div>
-  <div class="portfolio">
+  <div class="portfolio" id="portfolio">
     <Portfolio />
+  </div>
+  <div class="experience" id="experience">
+    <Experience />
   </div>
 </template>
 
@@ -51,9 +55,22 @@ main {
   padding: 110px 85px;
 }
 
+.experience {
+  background-color: #deebee;
+  padding: 110px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
 @media screen and (max-width: 992px) {
   main {
     flex-direction: column;
+  }
+
+  .experience {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -73,6 +90,10 @@ main {
 
   .portfolio {
     padding: 60px 42px;
+  }
+
+  .experience {
+    padding: 85px 42px;
   }
 }
 </style>
