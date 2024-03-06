@@ -16,7 +16,7 @@ const toggleMenu = () => {
     <li><a href="#main">Home</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#Experience">Experience</a></li>
+    <li><a href="#experience">Experience</a></li>
     <li><a href="#feedback">Feedback</a></li>
   </ul>
   <button>Contact Me</button>

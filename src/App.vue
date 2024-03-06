@@ -1,9 +1,10 @@
 <script setup>
 import Nav from './components/Nav.vue'
 import Introduction from './components/Introduction.vue'
-import Skill from "./components/Skill.vue"
+import Skill from './components/Skill.vue'
 import Portfolio from './components/Portfolio.vue'
 import Experience from './components/Experience.vue'
+import Feedback from './components/Feedback.vue'
 
 </script>
 
@@ -11,7 +12,7 @@ import Experience from './components/Experience.vue'
   <nav>
     <Nav />
   </nav>
-  <main>
+  <main id="main">
     <Introduction />
   </main>
   <div class="skills" id="skills">
@@ -23,6 +24,10 @@ import Experience from './components/Experience.vue'
   <div class="experience" id="experience">
     <Experience />
   </div>
+  <div class="feedback" id="feedback">
+    <Feedback />
+  </div>
+
 </template>
 
 <style>
@@ -63,6 +68,10 @@ main {
   gap: 60px;
 }
 
+.feedback {
+  padding: 110px 85px;
+}
+
 @media screen and (max-width: 992px) {
   main {
     flex-direction: column;
@@ -93,6 +102,10 @@ main {
   }
 
   .experience {
+    padding: 85px 42px;
+  }
+
+  .feedback {
     padding: 85px 42px;
   }
 }
