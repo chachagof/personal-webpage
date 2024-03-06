@@ -5,6 +5,8 @@ import Skill from './components/Skill.vue'
 import Portfolio from './components/Portfolio.vue'
 import Experience from './components/Experience.vue'
 import Feedback from './components/Feedback.vue'
+import Footer from './components/Footer.vue'
+
 
 </script>
 
@@ -27,6 +29,9 @@ import Feedback from './components/Feedback.vue'
   <div class="feedback" id="feedback">
     <Feedback />
   </div>
+  <footer>
+    <Footer />
+  </footer>
 
 </template>
 
@@ -72,6 +77,13 @@ main {
   padding: 110px 85px;
 }
 
+footer {
+  background-color: #deebee;
+  padding: 85px;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 992px) {
   main {
     flex-direction: column;
@@ -106,6 +118,10 @@ main {
   }
 
   .feedback {
+    padding: 85px 42px;
+  }
+
+  footer {
     padding: 85px 42px;
   }
 }
