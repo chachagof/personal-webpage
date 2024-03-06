@@ -7,7 +7,7 @@
       學習程式語言，藉由課程的漸進式學習，以及自己對於程式語言的喜愛，在這期間掌握了網頁前後端相關的基礎技術及一些熱門框架如<b>VUE3</b>、<b>Node.js</b>等，也因為對於學習的熱愛，在既有課程之外也有持續在學習相關知識，並透過<b>
         Medium 分享自身學習後的心得</b>，也希望透過我熱情與實力，成為一名合格的全端工程師。
     </p>
-    <a target="_blank" href="https://www.cakeresume.com/dashboard">
+    <a target="_blank" href="https://www.cakeresume.com/me/du-chacha">
       <button>Get In Touch</button>
     </a>
   </div>

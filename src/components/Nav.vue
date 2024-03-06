@@ -10,7 +10,7 @@ const toggleMenu = () => {
 <template>
   <div class="logo" :class="{ open: menuOpen }">
     <img src="../assets/C-logo.jpg" alt="logo">
-    <a href="https://youtube.com/@AsmrProg" target="_blank">Charlie</a>
+    <p>Charlie</p>
   </div>
   <ul>
     <li><a href="#main">Home</a></li>
@@ -19,7 +19,7 @@ const toggleMenu = () => {
     <li><a href="#experience">Experience</a></li>
     <li><a href="#feedback">Feedback</a></li>
   </ul>
-  <button>Contact Me</button>
+  <a href="https://www.linkedin.com/in/%E4%BD%B3%E9%9C%96-%E6%9D%9C-398a64168/" target="_blank"><button>Contact Me</button></a>
   <button id="menuButton" @click="toggleMenu">
     <i class="bx bx-menu"></i>
   </button>
@@ -31,10 +31,11 @@ const toggleMenu = () => {
   align-items: center;
 }
 
-.logo a {
+.logo p {
   margin-left: 8px;
   font-weight: bold;
   font-size: 20px;
+  color: #1c1e53;
 }
 
 .logo img {
